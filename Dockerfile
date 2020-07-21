@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt-get update \
     && pip install -r requirements.txt
 
-ENV PYTHONPATH=/app
+# ENV PYTHONPATH=/app
 
 EXPOSE 8000
 
