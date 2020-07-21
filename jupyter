@@ -1,0 +1,2 @@
+conda activate fiu
+jupyter lab --allow-root --no-browser
